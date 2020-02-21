@@ -2,170 +2,157 @@
 <html lang="en">
 
 <head>
+    <!--- Meta --->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>William Huang | Engineer</title>
+    <title>Calum Ragan | Full-Stack Engineer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="assests/css/skeleton.css">
-    <link rel="stylesheet" href="assests/css/style.css">
+
+    <!--- Stylesheets ---->
+    <link rel="stylesheet" href="assests/css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="assests/css/style.css" type='text/css'>
 </head>
 
 <body>
+
+    <!---- Title ----->
     <div class="header">
-        <img id="profileimg" src="assests/images/billybelot.jpg">
-        <h3>Hello! My name is William Huang</h3>
+        <img id="profileimg" src="assests/images/billybelot.jpg" alt='william-huang-profile'>
+        <h3 class='animated' id='greeting'>Hello! My name is <strong class='my-name'>Calum Ragan</strong></h3>
         <h5>Software Engineer located in New York</h5>
     </div>
     <hr>
     <section class="row">
+
+        <!---- Introduction ----->
         <summary class="nine columns">
             <h3><i class="fa fa-user" aria-hidden="true"></i>About Me </h3>
-            <p class="info">I am a student/developer interested in entrepreneurship and data science (machine-learning
-                more specifically), studying Computer Science and Finance at New York University. In my spare time, I
-                enjoy traveling, eating, and exploring. I love art (post-Impressionist is my favorite), touring museums,
-                watching movies, attending concerts/musical productions, and most of all, learning (about everything).
+            <p class="info">I am a <strong>full-stack software engineer</strong> looking for technical product management, blockchain architecture, and software engineering roles. I am passionate about building technologies that can change the world. Recently I worked as a blockchain architect at Fraktal designing and building blockchain networks and smart contracts. In my free time, I enjoy playing competitive chess, playing guitar, and reading.
+
+            <br /><br />
+            Feel free to <a href='#contact'>contact</a> me with any questions, opportunties, or if you just want to chat :)
             </p>
         </summary>
 
-
+        <!---- Intro Buttons----->
         <nav class="three columns">
 
-            <button class="fa fa-github icon" onclick="window.open('https://github.com/williamhuang0623');"> Github</button>
-            <button  class="fa fa-linkedin"  onclick="window.open('https://www.linkedin.com/in/williamhuang17/');"> LinkedIn</button>
+            <button onclick="window.open('https://github.com/williamhuang0623');">
+                <img src='assets/images/github.svg' class='github-icon'/>
+                Github
+            </button>
+            <button onclick="window.open('https://www.linkedin.com/in/williamhuang17/');">
+                <img src='assets/images/linkedin.svg' class='linkedin-icon' />
+                LinkedIn
+            </button>
             <button class="fa fa-envelope" onclick="window.location='#contact-info'"> Contact</button>
-
-
 
         </nav>
     </section>
 
     <hr>
+
+    <!---- Portfolio ----->
     <div id="portfolio">
-        <h3> <i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</h3>
-        <div class="container-fluid" id="gallery" name="gallery">
-            <div class="row row-10 row-horizontal-10">
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
+        <h3> <i class="fa fa-briefcase" aria-hidden="true"></i>Projects</h3>
+        <p>Fun apps and websites I have built, either for school or for previous jobs (displayed with permission). Hover above each block for a description of the project, and click to see the project in real life!</p>
 
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-md-4 col-xl-3">
-                    <a class="thumb-modern" data-lightgallery="item" href="#">
-                        <figure>
-                            <img class="projectimg" src="assests/images/THANOS_CAR.jpg">
-                            <div class="overlay">
-                                <div class="project-text">Hello World</div>
-                            </div>
-                        </figure>
-                    </a>
-                </div>
-
-            </div>
+      <!--- Gallery --->
+    <div class="container-fluid" id='gallery' name='gallery'>
+          <div class="row row-10 row-horizontal-10">
+            <div class="col-md-6"> <a class="thumb-modern" data-lightgallery="item" href="https://wptatw.org/" target='_blank'>
+                <figure><img src="assets/images/music.jpg" alt="wptatw" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                    <p class='gallery-title'><strong>World Piano Teacher Association (WPTATW)</strong>, built with NodeJS &amp; Bootstrap 4</p>
+                </div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://fraktalgroup.com/" target='_blank'>
+                <figure><img src="assets/images/network.jpg" alt="fraktal" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                    <p class='gallery-title'><strong>Fraktal</strong>, built with HTML/CSS &amp; Javascript</p>
+                </div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://www.empirenyu.com/" target='_blank'>
+                <figure><img src="assets/images/empire.jpg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                    <p class='gallery-title'><strong>Empire@NYU</strong>, an entrepreneurship club I founded at NYU, built with Squarespace &amp; Javascript code injections </p></div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://www.nyuzetapsi.com/" target='_blank'>
+                <figure><img src="assets/images/beer.jpg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                <p class='gallery-title'><strong>Zeta Psi NYU</strong>, built with Squarespace &amp; Javascript code injections</p></div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://peaceful-beyond-18811.herokuapp.com/" target='_blank'>
+                <figure><img src="assets/images/hemp.jpg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                <p class='gallery-title'><strong>Online Cannabis Shop</strong>, built with PHP &amp; Bootstrap 4</p></div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://drive.google.com/drive/folders/1J0rtV2u3K4YFisexW5FydxaSlsRYT3PO?usp=sharing" target='_blank'>
+                <figure><img src="assets/images/dollar.jpeg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                <p class='gallery-title'><strong>Pairi</strong>, a startup I cofounded. Contains app and product designs</p></div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://blooming-beyond-43593.herokuapp.com/" target='_blank'>
+                <figure><img src="assets/images/trading.jpeg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                <p class='gallery-title'><strong>CYPHER</strong>, a trading bot application I helped build at Node Capital, built with ReactJS &amp; Bootstrap (front-end only)</p></div></a></div>
+            <div class="col-md-6"><a class="thumb-modern" data-lightgallery="item" href="https://github.com/williamhuang0623/react-tradingapp-frontend-only" target='_blank'>
+                <figure><img src="assets/images/coin.jpeg" alt="" class='gallery-pic'>
+                </figure>
+                <div class="thumb-modern__overlay">
+                <p class='gallery-title'><strong>PRYSM</strong>, an internal crypto market analysis tool, built in Electron &amp; NodeJS</p></div></a></div>
+          </div>
         </div>
     </div>
     <hr>
+
     <div id="project-div">
-        <h3>Experience</h3>
+        <h3><img src='assets/images/experience.svg' class="fa fa-experience" aria-hidden="true" />Experience</h3>
         <div id="list">
-            <h5><i class="fa fa-globe" aria-hidden="true"></i><b>Web</b></h5>
+
+            <!---- Professional Experience ----->
+            <h5><i class="fa fa-globe" aria-hidden="true"></i><b>Professional</b></h5>
             <ul>
-                <li>Project#1</li>
-                <li>Project#2</li>
-                <li>Project#3</li>
+                <li><a href='https://flygetlost.com/' target='_blank'><strong>GetLost</strong></a>, Online Travel Agency specializing in cheap and last-minute mystery trips | Co-Founder</li>
+                <li><a href='https://fraktalgroup.com/' target="_blank"><strong>Fraktal Group</strong></a>, Blockchain and Tokeneconomics Advisory | Blockchain Architect &amp; Systems Engineer</li>
+                <li><a href='https://dancewithbilly.com/' target="_blank"><strong>Freelance</strong></a>, Building Web Apps with MERN (MongoDB, Express, ReactJS, and NodeJS) | Full-Stack Engineer</li>
+                <li><a href='http://nodecapital.io/' target="_blank"><strong>Node Capital</strong></a>, Data Science for Cryptocurrency Trading | Software Engineer</li>
+                <li><a href='http://hellowoofy.com/' target="_blank"><strong>Woofy</strong></a>, AI-driven Digital Marketing — Software Engineer</li>
+                <li><a href='https://drive.google.com/drive/folders/1J0rtV2u3K4YFisexW5FydxaSlsRYT3PO?usp=sharing'><strong>Pairi</strong></a>, Social Media and Web Development for Microbusinesses | Cofounder</li>
+                <li><a href='http://www.ryzerenewables.com/' target="_blank"><strong>Ryze Capital Partners</strong></a>, Private Equity in Energy and Industrial Development | Project Management </li>
             </ul>
-            <h5><i class="fa fa-tasks" aria-hidden="true"></i><b>Apps</b></h5>
+
+            <!---- Volunteer Experience ----->
+            <h5><i class="fa fa-tasks" aria-hidden="true"></i><b>Volunteer</b></h5>
             <ul>
-                <li>Project#1</li>
-                <li>Project#2</li>
-                <li>Project#3</li>
+                <li><a href='https://www.empirenyu.com/'><strong>Empire@NYU</strong></a>, Entrepreneurship Association | President &amp; Founder </li>
+                <li><a href='https://www.nydmatnyu.com/' target='_blank'><strong>Andrew McDonough B+ Foundation New York Dance Marathon</strong></a>, Children Cancer Charity | Team Captain </li>
+                <li><a href='https://www.tigerlaunch.com/'><strong>TigerLaunch</strong></a>, Intercollegiate Entrepreneurship Association | NYC Regional Director </li>
             </ul>
         </div>
     </div>
     <hr>
+
+    <!---- Contact Info ----->
     <div id="contact-info">
+        <a name='contact'></a>
         <footer class="row">
 
             <section class="six columns info">
                 <h3><b>Contact me</b></h3>
-                <span><b><i class="fa fa-envelope"></i> E-Mail:</b> <a
-                        href="mailto:williamhuang0623@gmail.com">williamhuang0623@gmail.com</a></span><br>
-                <span class="pull-right1"><b><i class="fa fa-phone"></i> Phone:</b>(XXX)-XXX-XXXX </span><br>
+                <span><b><i class="fa fa-envelope"></i> E-Mail:</b> <a href="mailto:searagan@gmail.com">searagan@gmail.com</a></span><br>
+                <span class="pull-right1"><b><i class="fa fa-phone"></i> Phone:</b> (949)-439-4440 </span><br>
             </section>
 
-
+            <!---- Contact Form ----->
             <section class="six columns contact">
                 <h3><i class="fa fa-envelope"></i><b> Contact</b></h3>
-                <form action="https://formspree.io/williamhuang0623@gmail.com" method="POST">
+                <form action="https://formspree.io/searagan@gmail.com" method="POST">
                     <div class="row">
                         <div class="six columns">
                             <input class="u-full-width" type="name" placeholder="Name" id="NameInput" name="name">
@@ -182,7 +169,7 @@
         </footer>
     </div>
 
-
+    <!---- Scripts ---->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -193,6 +180,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src='assets/js/main.js' type='text/javascript'></script>
 </body>
 
 </html>
