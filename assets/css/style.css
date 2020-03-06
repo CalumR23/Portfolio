@@ -98,7 +98,7 @@ will-change: opacity,transform;
 }
 
 .thumb-modern .gallery-pic {
-  width: 100%;
+  width: 400px;
   height: 300px;
 }
 .thumb-modern:hover img {
